@@ -1,5 +1,5 @@
 import Icons from "@/components/atoms/Icons";
-import { Card, CardContent } from "@/components/molecule/Card";
+import { Card, CardContent } from "@/components/molecule/tmpCard";
 import Navbar from "@/components/organism/NavBar";
 import Sidebar from "@/components/organism/Sidebar";
 import { getCommentById } from "@/services/comment";

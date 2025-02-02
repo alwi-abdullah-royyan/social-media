@@ -5,7 +5,7 @@ import Icons from "@/components/atoms/Icons";
 import Navbar from "@/components/organism/NavBar";
 import { useSelector } from "react-redux";
 import { useRouter } from "next/router";
-import { Card, CardContent } from "@/components/molecule/Card";
+import { Card, CardContent } from "@/components/molecule/tmpCard";
 import Link from "next/link";
 const Notification = () => {
   const [posts, setPosts] = useState([]);

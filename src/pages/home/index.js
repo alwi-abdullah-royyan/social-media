@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Card, CardContent } from "@/components/molecule/Card";
+import { Card, CardContent } from "@/components/molecule/tmpCard";
 import axios from "axios";
 import Sidebar from "@/components/organism/Sidebar";
 import SidebarTrend from "@/components/organism/SidebarTrend";

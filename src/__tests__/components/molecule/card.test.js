@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import { Card, CardContent } from "@/components/molecule/Card"; // Adjust the import path if needed
+import { Card, CardContent } from "@/components/molecule/tmpCard"; // Adjust the import path if needed
 import Image from "next/image"; // Import Image to mock it
 
 // Mock the Image component to prevent actual image rendering
