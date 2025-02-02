@@ -1,6 +1,5 @@
 import Icons from "@/components/atoms/Icons";
 import { useRouter } from "next/router";
-
 const NotFound = () => {
   const router = useRouter();
 
@@ -38,6 +37,12 @@ const NotFound = () => {
           className="mt-6 px-6 py-3 text-lg font-mono text-gray-500 bg-gray-200 rounded-md hover:shadow-md transition-all"
         >
           Go Back
+        </button>
+        <button
+          onClick={() => router.push("/")}
+          className="mt-6 px-6 py-3 text-lg font-mono text-gray-500 bg-gray-200 rounded-md hover:shadow-md transition-all"
+        >
+          <Icons.Feeds /> Home
         </button>
       </div>
     </>

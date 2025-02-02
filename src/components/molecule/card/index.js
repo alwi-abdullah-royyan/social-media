@@ -14,7 +14,7 @@ export function CardContent({ title, post, username, avatar }) {
   return (
     <div className="p-4 text-white  space-y-2">
       <div className="flex gap-3 items-top">
-        <Image src={avatar} alt="Avatar" className="rounded-full" width={50} height={50} />
+        {avatar && <Image src={avatar} alt="Avatar" className="rounded-full" width={50} height={50} />}
         <p className="font-bold">{username}</p>
       </div>
 

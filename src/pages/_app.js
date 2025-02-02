@@ -1,4 +1,4 @@
-import { setIsLargeScreen, setIsMobileScreen } from "@/redux/screenSlice/screenSlice";
+import { setIsMobileScreen } from "@/redux/screenSlice/screenSlice";
 import store from "@/redux/store";
 import "@/styles/globals.css";
 import { useEffect } from "react";
@@ -10,7 +10,6 @@ export default function App({ Component, pageProps }) {
     function handleResize() {
       //dispatch : aksi yang memicu perubahan nilai state
       store.dispatch(setIsMobileScreen(window.innerWidth < 768));
-      store.dispatch(setIsLargeScreen(window.innerWidth >= 1240));
     }
     handleResize();
     window.addEventListener("resize", handleResize);

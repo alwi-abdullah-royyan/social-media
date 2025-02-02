@@ -1,24 +1,21 @@
-import { useState } from "react";
-const Search = () => {
+import Icons from "@/components/atoms/Icons";
+import { useMemo, useState } from "react";
+import Router, { useRouter } from "next/router";
+const Search = ({ trendingItems }) => {
   const [searchTerm, setSearchTerm] = useState("");
-
-  // Mockup data for trending items
-  const trendingItems = [
-    "React 18 Released",
-    "JavaScript Tips",
-    "Next.js vs Gatsby",
-    "Web3 Development",
-    "CSS Grid Layout",
-    "AI in Web Development",
-    "Frontend Frameworks",
-    "Node.js Performance",
-  ];
-
+  const router = useRouter();
   // Filter trending items based on search input
-  const filteredTrending = trendingItems.filter((item) => item.toLowerCase().includes(searchTerm.toLowerCase()));
+
+  const filteredTrending = useMemo(() => {
+    return trendingItems.filter((item) => item.toLowerCase().includes(searchTerm.toLowerCase()));
+  }, [trendingItems, searchTerm]);
 
   return (
-    <div className="w-full h-full  text-white p-4 space-y-6">
+    <div className="w-full h-full text-white p-4 space-y-6">
+      <button onClick={router.back} className="flex gap-2">
+        <Icons.Back />
+        Back
+      </button>
       {/* Search Bar */}
       <div className="flex items-center bg-gray-800 p-2 rounded-md">
         <input

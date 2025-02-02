@@ -1,4 +1,5 @@
 import Back from "./Back";
+import Emoji404 from "./Emoji404";
 import Explore from "./Explore";
 import Feeds from "./Feeds";
 import Friends from "./Friends";
@@ -16,5 +17,6 @@ const Icons = {
   Settings,
   Search,
   Back,
+  Emoji404,
 };
 export default Icons;
