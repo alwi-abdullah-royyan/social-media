@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Component filters trending items based on search input 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full h-full text-white p-4 space-y-6"
+      >
+        <button
+          class="flex gap-2"
+        >
+          <svg
+            fill="#e8eaed"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M640-200 200-480l440-280v560Zm-80-280Zm0 134v-268L350-480l210 134Z"
+            />
+          </svg>
+          Back
+        </button>
+        <div
+          class="flex items-center bg-gray-800 p-2 rounded-md"
+        >
+          <input
+            class="bg-transparent w-full text-white placeholder-gray-400 focus:outline-none"
+            placeholder="Search..."
+            type="text"
+            value="React"
+          />
+        </div>
+        <div
+          class="text-xl font-semibold"
+        >
+          Trending
+        </div>
+        <div
+          class="space-y-2"
+        >
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            React 18 Released
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full h-full text-white p-4 space-y-6"
+    >
+      <button
+        class="flex gap-2"
+      >
+        <svg
+          fill="#e8eaed"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M640-200 200-480l440-280v560Zm-80-280Zm0 134v-268L350-480l210 134Z"
+          />
+        </svg>
+        Back
+      </button>
+      <div
+        class="flex items-center bg-gray-800 p-2 rounded-md"
+      >
+        <input
+          class="bg-transparent w-full text-white placeholder-gray-400 focus:outline-none"
+          placeholder="Search..."
+          type="text"
+          value="React"
+        />
+      </div>
+      <div
+        class="text-xl font-semibold"
+      >
+        Trending
+      </div>
+      <div
+        class="space-y-2"
+      >
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          React 18 Released
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Search Component renders the component with trending items 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="w-full h-full text-white p-4 space-y-6"
+      >
+        <button
+          class="flex gap-2"
+        >
+          <svg
+            fill="#e8eaed"
+            height="24px"
+            viewBox="0 -960 960 960"
+            width="24px"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M640-200 200-480l440-280v560Zm-80-280Zm0 134v-268L350-480l210 134Z"
+            />
+          </svg>
+          Back
+        </button>
+        <div
+          class="flex items-center bg-gray-800 p-2 rounded-md"
+        >
+          <input
+            class="bg-transparent w-full text-white placeholder-gray-400 focus:outline-none"
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="text-xl font-semibold"
+        >
+          Trending
+        </div>
+        <div
+          class="space-y-2"
+        >
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            React 18 Released
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            JavaScript Tips
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Next.js vs Gatsby
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Web3 Development
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            CSS Grid Layout
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            AI in Web Development
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Frontend Frameworks
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Node.js Performance
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="w-full h-full text-white p-4 space-y-6"
+    >
+      <button
+        class="flex gap-2"
+      >
+        <svg
+          fill="#e8eaed"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M640-200 200-480l440-280v560Zm-80-280Zm0 134v-268L350-480l210 134Z"
+          />
+        </svg>
+        Back
+      </button>
+      <div
+        class="flex items-center bg-gray-800 p-2 rounded-md"
+      >
+        <input
+          class="bg-transparent w-full text-white placeholder-gray-400 focus:outline-none"
+          placeholder="Search..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="text-xl font-semibold"
+      >
+        Trending
+      </div>
+      <div
+        class="space-y-2"
+      >
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          React 18 Released
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          JavaScript Tips
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Next.js vs Gatsby
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Web3 Development
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          CSS Grid Layout
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          AI in Web Development
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Frontend Frameworks
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Node.js Performance
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`useFetchPosts Hook should match snapshot after error fetching posts 1`] = `
+<DocumentFragment>
+  <div />
+</DocumentFragment>
+`;
+
+exports[`useFetchPosts Hook should match snapshot after fetching posts 1`] = `
+<DocumentFragment>
+  <div />
+</DocumentFragment>
+`;

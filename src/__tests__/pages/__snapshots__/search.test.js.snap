@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search Page renders correctly and matches snapshot 1`] = `
+<div>
+  <div
+    class="bg-black p-4 space-y-6 h-full min-h-screen"
+  >
+    <div
+      class="w-full h-full text-white p-4 space-y-6"
+    >
+      <button
+        class="flex gap-2"
+      >
+        <svg
+          fill="#e8eaed"
+          height="24px"
+          viewBox="0 -960 960 960"
+          width="24px"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M640-200 200-480l440-280v560Zm-80-280Zm0 134v-268L350-480l210 134Z"
+          />
+        </svg>
+        Back
+      </button>
+      <div
+        class="flex items-center bg-gray-800 p-2 rounded-md"
+      >
+        <input
+          class="bg-transparent w-full text-white placeholder-gray-400 focus:outline-none"
+          placeholder="Search..."
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="text-xl font-semibold"
+      >
+        Trending
+      </div>
+      <div
+        class="space-y-2"
+      >
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          React 18 Released
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          JavaScript Tips
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Next.js vs Gatsby
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Web3 Development
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          CSS Grid Layout
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          AI in Web Development
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Frontend Frameworks
+        </div>
+        <div
+          class="p-1 hover:bg-gray-700 rounded-md"
+        >
+          Node.js Performance
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

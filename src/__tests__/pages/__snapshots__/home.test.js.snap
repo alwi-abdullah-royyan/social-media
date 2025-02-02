@@ -1,0 +1,272 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SocialFeed renders and matches snapshot 1`] = `
+<div>
+  <div
+    class="flex"
+  >
+    <div
+      class="h-screen bg-gray-900 text-white p-4"
+    >
+      <div
+        class="w-40 h-full bg-gray-900 text-white  space-y-6"
+      >
+        <div
+          class="text-xl font-semibold"
+        >
+          SocialMedia
+        </div>
+        <div
+          class="space-y-4"
+        >
+          <a
+            class="flex items-center text-lg hover:bg-gray-700 p-2 rounded-lg gap-2"
+            href="/home"
+          >
+            <svg
+              fill="#e8eaed"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"
+              />
+            </svg>
+            Home
+          </a>
+          <a
+            class="flex items-center text-lg hover:bg-gray-700 p-2 rounded-lg gap-2"
+            href="/notification"
+          >
+            <svg
+              fill="#e8eaed"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M160-200v-80h80v-280q0-83 50-147.5T420-792v-28q0-25 17.5-42.5T480-880q25 0 42.5 17.5T540-820v28q80 20 130 84.5T720-560v280h80v80H160Zm320-300Zm0 420q-33 0-56.5-23.5T400-160h160q0 33-23.5 56.5T480-80ZM320-280h320v-280q0-66-47-113t-113-47q-66 0-113 47t-47 113v280Z"
+              />
+            </svg>
+            Notifications
+          </a>
+          <a
+            class="flex items-center text-lg hover:bg-gray-700 p-2 rounded-lg gap-2"
+            href="/friends"
+          >
+            <svg
+              fill="#e8eaed"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0-240v-63q0-43 44-70t116-27q13 0 25 .5t23 2.5q-14 21-21 44t-7 48v65H0Zm240 0v-65q0-32 17.5-58.5T307-410q32-20 76.5-30t96.5-10q53 0 97.5 10t76.5 30q32 20 49 46.5t17 58.5v65H240Zm540 0v-65q0-26-6.5-49T754-397q11-2 22.5-2.5t23.5-.5q72 0 116 26.5t44 70.5v63H780Zm-455-80h311q-10-20-55.5-35T480-370q-55 0-100.5 15T325-320ZM160-440q-33 0-56.5-23.5T80-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T160-440Zm640 0q-33 0-56.5-23.5T720-520q0-34 23.5-57t56.5-23q34 0 57 23t23 57q0 33-23 56.5T800-440Zm-320-40q-50 0-85-35t-35-85q0-51 35-85.5t85-34.5q51 0 85.5 34.5T600-600q0 50-34.5 85T480-480Zm0-80q17 0 28.5-11.5T520-600q0-17-11.5-28.5T480-640q-17 0-28.5 11.5T440-600q0 17 11.5 28.5T480-560Zm1 240Zm-1-280Z"
+              />
+            </svg>
+            Friends
+          </a>
+          <a
+            class="flex items-center text-lg hover:bg-gray-700 p-2 rounded-lg gap-2"
+            href="/settings"
+          >
+            <svg
+              fill="#e8eaed"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"
+              />
+            </svg>
+            Settings
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="flex"
+    >
+      <div
+        class="h-screen overflow-y-auto"
+      >
+        <div
+          class=" rounded-2xl  p-4 opacity-0 transition-opacity duration-100"
+          data-id="1"
+        >
+          <div
+            class="p-4 text-white  space-y-2"
+          >
+            <div
+              class="flex gap-3 items-top"
+            >
+              <img
+                alt="Avatar"
+                class="rounded-full"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F1%2F100&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F1%2F100&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F1%2F100&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+              <p
+                class="font-bold"
+              />
+            </div>
+            <h2
+              class="text-xl font-bold"
+            >
+              Post 1
+            </h2>
+            <p
+              class="text-sm"
+            >
+              This is post 1
+            </p>
+          </div>
+          <div
+            class="w-full items-center text-center justify-center"
+          >
+            <a
+              class="px-5 py-1 border hover:bg-gray-600 rounded-sm block"
+              href="/home/1"
+            >
+              Comment
+            </a>
+          </div>
+        </div>
+        <div
+          class="h-0.5 bg-gray-400 mx-4"
+        />
+        <div
+          class=" rounded-2xl  p-4 opacity-0 transition-opacity duration-100"
+          data-id="2"
+        >
+          <div
+            class="p-4 text-white  space-y-2"
+          >
+            <div
+              class="flex gap-3 items-top"
+            >
+              <img
+                alt="Avatar"
+                class="rounded-full"
+                data-nimg="1"
+                decoding="async"
+                height="50"
+                loading="lazy"
+                src="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F2%2F100&w=128&q=75"
+                srcset="/_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F2%2F100&w=64&q=75 1x, /_next/image?url=https%3A%2F%2Fpicsum.photos%2Fid%2F2%2F100&w=128&q=75 2x"
+                style="color: transparent;"
+                width="50"
+              />
+              <p
+                class="font-bold"
+              />
+            </div>
+            <h2
+              class="text-xl font-bold"
+            >
+              Post 2
+            </h2>
+            <p
+              class="text-sm"
+            >
+              This is post 2
+            </p>
+          </div>
+          <div
+            class="w-full items-center text-center justify-center"
+          >
+            <a
+              class="px-5 py-1 border hover:bg-gray-600 rounded-sm block"
+              href="/home/2"
+            >
+              Comment
+            </a>
+          </div>
+        </div>
+        <div
+          class="h-0.5 bg-gray-400 mx-4"
+        />
+      </div>
+    </div>
+    <div
+      class="h-screen bg-gray-900 text-white p-4"
+    >
+      <div
+        class="w-48 h-full bg-gray-900 text-white p-4 space-y-6"
+      >
+        <div
+          class="flex items-center bg-gray-800 p-2 rounded-md"
+        >
+          <input
+            class="bg-transparent w-full text-white placeholder-gray-400 focus:outline-none"
+            placeholder="Search..."
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="text-xl font-semibold"
+        >
+          Trending
+        </div>
+        <div
+          class="space-y-2"
+        >
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            React 18 Released
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            JavaScript Tips
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Next.js vs Gatsby
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Web3 Development
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            CSS Grid Layout
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            AI in Web Development
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Frontend Frameworks
+          </div>
+          <div
+            class="p-1 hover:bg-gray-700 rounded-md"
+          >
+            Node.js Performance
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
